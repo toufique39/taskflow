@@ -18,7 +18,6 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    e.preventDefault();
     setFormData((prev) => ({
       ...prev,
       [name]: value,

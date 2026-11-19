@@ -1,12 +1,21 @@
+import Navbar from "./components/navbar";
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-500">
-        TaskFlow - Tailwind is Working!
-      </h1>
-    </div>
-  )
+    <main>
+      <Navbar />
+
+      <section
+        id="home"
+        className="flex min-h-screen items-center justify-center bg-slate-50"
+      >
+        <h1 className="text-4xl font-bold text-slate-900">
+          TaskFlow Website
+        </h1>
+      </section>
+    </main>
+  );
 }
 
-export default App
+export default App;

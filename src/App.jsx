@@ -5,6 +5,7 @@ import Features from "./sections/Features";
 import About from "./sections/About";
 import HowItWorks from "./sections/HowItWorks";
 import Pricing from "./sections/Pricing";
+import Contact from "./sections/Contact";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About></About>
       <HowItWorks></HowItWorks>
       <Pricing></Pricing>
+      <Contact></Contact>
      </Suspense>
     </main>
   );
